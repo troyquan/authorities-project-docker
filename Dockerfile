@@ -1,5 +1,5 @@
 
-FROM openjdk:17-jdk-hotspot
+FROM openjdk:17
 
 # copy jar file into container
 COPY service-system.jar .
